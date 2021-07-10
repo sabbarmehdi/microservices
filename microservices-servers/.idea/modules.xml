@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ApiConfigServer/ApiConfigServer.iml" filepath="$PROJECT_DIR$/ApiConfigServer/ApiConfigServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ApiGateway/ApiGateway.iml" filepath="$PROJECT_DIR$/ApiGateway/ApiGateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AppDiscovryServer/AppDiscovryServer.iml" filepath="$PROJECT_DIR$/AppDiscovryServer/AppDiscovryServer.iml" />
+    </modules>
+  </component>
+</project>

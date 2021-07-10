@@ -1,0 +1,14 @@
+
+v
+java:S1128	"`Remove this unused import 'org.springframework.boot.context.properties.ConfigurationProperties'.(¦Õ¸Ç
+x
+java:S1128
+"]Remove this unused import 'org.springframework.cloud.context.config.annotation.RefreshScope'.(­¾î²ûÿÿÿÿ
+j
+java:S1128"MRemove this unused import 'org.springframework.security.core.Authentication'.(ñýÓ“8¼ÒñÌ¤/
+y
+java:S1128"\Remove this unused import 'org.springframework.security.core.context.SecurityContextHolder'.(ŒÄæë8¼ÒñÌ¤/
+u
+java:S2293L"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÊÉë;8‡ÆÐÌ¤/
+{
+java:S2293Q"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÖÝÅ‹ýÿÿÿÿ8ð’Ðå¤/

@@ -1,0 +1,321 @@
+2021-06-28 09:53:52.738  INFO 2243 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8888
+2021-06-28 09:53:52.804  INFO 2243 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=ApiConfigurationServer, profiles=[default], label=null, version=null, state=null
+2021-06-28 09:53:52.807  INFO 2243 --- [restartedMain] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-file:/Users/sabbar/Desktop/projects/spring-boot-microservices/dev/application.properties'}]
+2021-06-28 09:53:52.927  INFO 2243 --- [restartedMain] com.peaqock.items.ItemsApplication       : No active profile set, falling back to default profiles: default
+2021-06-28 09:53:53.052  INFO 2243 --- [restartedMain] o.s.b.context.config.ConfigDataLoader    : Fetching config from server at : http://localhost:8888
+2021-06-28 09:53:53.052  INFO 2243 --- [restartedMain] o.s.b.context.config.ConfigDataLoader    : Located environment: name=ApiConfigurationServer, profiles=[default], label=null, version=null, state=null
+2021-06-28 09:53:57.573  INFO 2243 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-06-28 09:53:57.574  INFO 2243 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-06-28 09:53:57.710  INFO 2243 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 128 ms. Found 1 MongoDB repository interfaces.
+2021-06-28 09:53:59.193  INFO 2243 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=04d6da34-fb10-3676-b3fe-3873e30a3635
+2021-06-28 09:53:59.247  INFO 2243 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2021-06-28 09:53:59.294  INFO 2243 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2021-06-28 09:53:59.691  INFO 2243 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.stream.config.BindersHealthIndicatorAutoConfiguration' of type [org.springframework.cloud.stream.config.BindersHealthIndicatorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-28 09:53:59.704  INFO 2243 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'bindersHealthContributor' of type [org.springframework.cloud.stream.config.BindersHealthIndicatorAutoConfiguration$BindersHealthContributor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-28 09:53:59.706  INFO 2243 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'bindersHealthIndicatorListener' of type [org.springframework.cloud.stream.config.BindersHealthIndicatorAutoConfiguration$BindersHealthIndicatorListener] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-28 09:53:59.721  INFO 2243 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-28 09:53:59.732  INFO 2243 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration' of type [org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-28 09:53:59.756  INFO 2243 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration' of type [org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-28 09:53:59.764  INFO 2243 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'mbeanServer' of type [com.sun.jmx.mbeanserver.JmxMBeanServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-28 09:53:59.816  INFO 2243 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-28 09:53:59.820  INFO 2243 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-28 09:53:59.881  INFO 2243 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.stream.binder.rabbit.config.ExtendedBindingHandlerMappingsProviderConfiguration' of type [org.springframework.cloud.stream.binder.rabbit.config.ExtendedBindingHandlerMappingsProviderConfiguration$$EnhancerBySpringCGLIB$$eb0878c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-28 09:53:59.994  INFO 2243 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'rabbitExtendedPropertiesDefaultMappingsProvider' of type [org.springframework.cloud.stream.binder.rabbit.config.ExtendedBindingHandlerMappingsProviderConfiguration$$Lambda$665/0x00000008005b0040] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-28 09:53:59.997  INFO 2243 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'BindingHandlerAdvise' of type [org.springframework.cloud.stream.config.BindingHandlerAdvise] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-28 09:54:00.021  INFO 2243 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spelConverter' of type [org.springframework.cloud.stream.config.SpelExpressionConverterConfiguration$SpelConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-28 09:54:00.037  INFO 2243 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'management.metrics-org.springframework.boot.actuate.autoconfigure.metrics.MetricsProperties' of type [org.springframework.boot.actuate.autoconfigure.metrics.MetricsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-28 09:54:00.041  INFO 2243 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.actuate.autoconfigure.metrics.data.RepositoryMetricsAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.data.RepositoryMetricsAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-28 09:54:00.048  INFO 2243 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleMetricsExportAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleMetricsExportAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-28 09:54:00.069  INFO 2243 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'management.metrics.export.simple-org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleProperties' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-28 09:54:00.095  INFO 2243 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'simpleConfig' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimplePropertiesConfigAdapter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-28 09:54:00.110  INFO 2243 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-28 09:54:00.112  INFO 2243 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'micrometerClock' of type [io.micrometer.core.instrument.Clock$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-28 09:54:00.165  INFO 2243 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'simpleMeterRegistry' of type [io.micrometer.core.instrument.simple.SimpleMeterRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-28 09:54:00.223  INFO 2243 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'repositoryTagsProvider' of type [org.springframework.boot.actuate.metrics.data.DefaultRepositoryTagsProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-28 09:54:00.224  INFO 2243 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'metricsRepositoryMethodInvocationListener' of type [org.springframework.boot.actuate.metrics.data.MetricsRepositoryMethodInvocationListener] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-28 09:54:02.555  INFO 2243 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8762 (http)
+2021-06-28 09:54:02.581  INFO 2243 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-28 09:54:02.584  INFO 2243 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-28 09:54:03.015  INFO 2243 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-28 09:54:03.016  INFO 2243 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 9960 ms
+2021-06-28 09:54:04.603  INFO 2243 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[127.0.0.1:27017], srvHost=cluster0.kgig8.mongodb.net, mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', requiredReplicaSetName='atlas-grnei6-shard-0'}
+2021-06-28 09:54:04.771  INFO 2243 --- [cluster-ClusterId{value='60d98e2cf687c0398e2d601a', description='null'}-srv-cluster0.kgig8.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server cluster0-shard-00-00.kgig8.mongodb.net:27017 to client view of cluster
+2021-06-28 09:54:04.882  INFO 2243 --- [cluster-ClusterId{value='60d98e2cf687c0398e2d601a', description='null'}-srv-cluster0.kgig8.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server cluster0-shard-00-02.kgig8.mongodb.net:27017 to client view of cluster
+2021-06-28 09:54:04.886  INFO 2243 --- [cluster-ClusterId{value='60d98e2cf687c0398e2d601a', description='null'}-srv-cluster0.kgig8.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server cluster0-shard-00-01.kgig8.mongodb.net:27017 to client view of cluster
+2021-06-28 09:54:05.119  WARN 2243 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-28 09:54:05.654  INFO 2243 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-28 09:54:06.029  WARN 2243 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-28 09:54:06.582  INFO 2243 --- [cluster-ClusterId{value='60d98e2cf687c0398e2d601a', description='null'}-cluster0-shard-00-00.kgig8.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:94085}] to cluster0-shard-00-00.kgig8.mongodb.net:27017
+2021-06-28 09:54:06.583  INFO 2243 --- [cluster-rtt-ClusterId{value='60d98e2cf687c0398e2d601a', description='null'}-cluster0-shard-00-02.kgig8.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:91831}] to cluster0-shard-00-02.kgig8.mongodb.net:27017
+2021-06-28 09:54:06.583  INFO 2243 --- [cluster-rtt-ClusterId{value='60d98e2cf687c0398e2d601a', description='null'}-cluster0-shard-00-01.kgig8.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:6, serverValue:116810}] to cluster0-shard-00-01.kgig8.mongodb.net:27017
+2021-06-28 09:54:06.583  INFO 2243 --- [cluster-ClusterId{value='60d98e2cf687c0398e2d601a', description='null'}-cluster0-shard-00-00.kgig8.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=cluster0-shard-00-00.kgig8.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1033357783, setName='atlas-grnei6-shard-0', canonicalAddress=cluster0-shard-00-00.kgig8.mongodb.net:27017, hosts=[cluster0-shard-00-00.kgig8.mongodb.net:27017, cluster0-shard-00-02.kgig8.mongodb.net:27017, cluster0-shard-00-01.kgig8.mongodb.net:27017], passives=[], arbiters=[], primary='cluster0-shard-00-01.kgig8.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=9, topologyVersion=TopologyVersion{processId=60d4e4caca4118c03009c405, counter=4}, lastWriteDate=Mon Jun 28 09:54:05 WEST 2021, lastUpdateTimeNanos=3754135014601}
+2021-06-28 09:54:06.583  INFO 2243 --- [cluster-ClusterId{value='60d98e2cf687c0398e2d601a', description='null'}-cluster0-shard-00-01.kgig8.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:5, serverValue:116859}] to cluster0-shard-00-01.kgig8.mongodb.net:27017
+2021-06-28 09:54:06.587  INFO 2243 --- [cluster-ClusterId{value='60d98e2cf687c0398e2d601a', description='null'}-cluster0-shard-00-02.kgig8.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:91831}] to cluster0-shard-00-02.kgig8.mongodb.net:27017
+2021-06-28 09:54:06.588  INFO 2243 --- [cluster-ClusterId{value='60d98e2cf687c0398e2d601a', description='null'}-cluster0-shard-00-02.kgig8.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=cluster0-shard-00-02.kgig8.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1042651007, setName='atlas-grnei6-shard-0', canonicalAddress=cluster0-shard-00-02.kgig8.mongodb.net:27017, hosts=[cluster0-shard-00-00.kgig8.mongodb.net:27017, cluster0-shard-00-02.kgig8.mongodb.net:27017, cluster0-shard-00-01.kgig8.mongodb.net:27017], passives=[], arbiters=[], primary='cluster0-shard-00-01.kgig8.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=9, topologyVersion=TopologyVersion{processId=60d4e8d3f5749bc96b6364b0, counter=4}, lastWriteDate=Mon Jun 28 09:54:05 WEST 2021, lastUpdateTimeNanos=3754143014738}
+2021-06-28 09:54:06.587  INFO 2243 --- [cluster-rtt-ClusterId{value='60d98e2cf687c0398e2d601a', description='null'}-cluster0-shard-00-00.kgig8.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:4, serverValue:94081}] to cluster0-shard-00-00.kgig8.mongodb.net:27017
+2021-06-28 09:54:06.588  INFO 2243 --- [cluster-ClusterId{value='60d98e2cf687c0398e2d601a', description='null'}-cluster0-shard-00-01.kgig8.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=cluster0-shard-00-01.kgig8.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1035341918, setName='atlas-grnei6-shard-0', canonicalAddress=cluster0-shard-00-01.kgig8.mongodb.net:27017, hosts=[cluster0-shard-00-00.kgig8.mongodb.net:27017, cluster0-shard-00-02.kgig8.mongodb.net:27017, cluster0-shard-00-01.kgig8.mongodb.net:27017], passives=[], arbiters=[], primary='cluster0-shard-00-01.kgig8.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff000000000000005c, setVersion=9, topologyVersion=TopologyVersion{processId=60d4e80377eb7fb88ffe7264, counter=6}, lastWriteDate=Mon Jun 28 09:54:05 WEST 2021, lastUpdateTimeNanos=3754135587677}
+2021-06-28 09:54:06.591  INFO 2243 --- [cluster-ClusterId{value='60d98e2cf687c0398e2d601a', description='null'}-cluster0-shard-00-01.kgig8.mongodb.net:27017] org.mongodb.driver.cluster               : Setting max election id to 7fffffff000000000000005c from replica set primary cluster0-shard-00-01.kgig8.mongodb.net:27017
+2021-06-28 09:54:06.592  INFO 2243 --- [cluster-ClusterId{value='60d98e2cf687c0398e2d601a', description='null'}-cluster0-shard-00-01.kgig8.mongodb.net:27017] org.mongodb.driver.cluster               : Setting max set version to 9 from replica set primary cluster0-shard-00-01.kgig8.mongodb.net:27017
+2021-06-28 09:54:06.593  INFO 2243 --- [cluster-ClusterId{value='60d98e2cf687c0398e2d601a', description='null'}-cluster0-shard-00-01.kgig8.mongodb.net:27017] org.mongodb.driver.cluster               : Discovered replica set primary cluster0-shard-00-01.kgig8.mongodb.net:27017
+2021-06-28 09:54:13.330  INFO 2243 --- [restartedMain] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'application-1.springCloudBusInput' has 1 subscriber(s).
+2021-06-28 09:54:15.600  INFO 2243 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2021-06-28 09:54:15.936  WARN 2243 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-06-28 09:54:15.981  INFO 2243 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-06-28 09:54:16.632  INFO 2243 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel errorChannel
+2021-06-28 09:54:16.730  INFO 2243 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBusInput
+2021-06-28 09:54:16.770  INFO 2243 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel nullChannel
+2021-06-28 09:54:16.785  INFO 2243 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageHandler _org.springframework.integration.errorLogger
+2021-06-28 09:54:16.954  INFO 2243 --- [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2021-06-28 09:54:16.956  INFO 2243 --- [restartedMain] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 1 subscriber(s).
+2021-06-28 09:54:16.956  INFO 2243 --- [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : started bean '_org.springframework.integration.errorLogger'
+2021-06-28 09:54:16.991  INFO 2243 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-06-28 09:54:17.116  INFO 2243 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-06-28 09:54:17.125  INFO 2243 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-28 09:54:17.172  INFO 2243 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-06-28 09:54:17.173  INFO 2243 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-06-28 09:54:17.173  INFO 2243 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-06-28 09:54:17.173  INFO 2243 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-06-28 09:54:17.173  INFO 2243 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-06-28 09:54:17.173  INFO 2243 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-06-28 09:54:17.173  INFO 2243 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-06-28 09:54:17.543  INFO 2243 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-06-28 09:54:17.552  INFO 2243 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-06-28 09:54:17.558  INFO 2243 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-06-28 09:54:17.570  INFO 2243 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1624870457568 with initial instances count: 1
+2021-06-28 09:54:17.582  INFO 2243 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ITEM-SERVICE with eureka with status UP
+2021-06-28 09:54:17.585  INFO 2243 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1624870457585, current=UP, previous=STARTING]
+2021-06-28 09:54:17.589  INFO 2243 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/192.168.1.170:item-service:8762: registering service...
+2021-06-28 09:54:17.620  INFO 2243 --- [restartedMain] o.s.c.s.binder.DefaultBinderFactory      : Creating binder: rabbit
+2021-06-28 09:54:17.661  INFO 2243 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/192.168.1.170:item-service:8762 - registration status: 204
+2021-06-28 09:54:17.813  INFO 2243 --- [restartedMain] o.s.c.s.binder.DefaultBinderFactory      : Caching the binder: rabbit
+2021-06-28 09:54:17.814  INFO 2243 --- [restartedMain] o.s.c.s.binder.DefaultBinderFactory      : Retrieving cached binder: rabbit
+2021-06-28 09:54:18.136  INFO 2243 --- [restartedMain] c.s.b.r.p.RabbitExchangeQueueProvisioner : declaring queue for inbound: springCloudBus.anonymous.rA1C2Av4S_u5pNIvc89BvA, bound to: springCloudBus
+2021-06-28 09:54:18.140  INFO 2243 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2021-06-28 09:54:18.193  INFO 2243 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#523b6556:0/SimpleConnection@516acc62 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 49979]
+2021-06-28 09:54:18.275  INFO 2243 --- [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'springCloudBus.anonymous.rA1C2Av4S_u5pNIvc89BvA.errors' has 1 subscriber(s).
+2021-06-28 09:54:18.276  INFO 2243 --- [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'springCloudBus.anonymous.rA1C2Av4S_u5pNIvc89BvA.errors' has 2 subscriber(s).
+2021-06-28 09:54:18.301  INFO 2243 --- [restartedMain] o.s.i.a.i.AmqpInboundChannelAdapter      : started bean 'inbound.springCloudBus.anonymous.rA1C2Av4S_u5pNIvc89BvA'
+2021-06-28 09:54:18.354  INFO 2243 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8762 (http) with context path ''
+2021-06-28 09:54:18.356  INFO 2243 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8762
+2021-06-28 09:54:18.483  INFO 2243 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBus.anonymous.rA1C2Av4S_u5pNIvc89BvA.errors
+2021-06-28 09:54:18.528  INFO 2243 --- [restartedMain] com.peaqock.items.ItemsApplication       : Started ItemsApplication in 29.328 seconds (JVM running for 37.744)
+2021-06-28 09:54:18.546  INFO 2243 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-28 09:54:18.556  INFO 2243 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-28 09:54:18.886  INFO 2243 --- [RMI TCP Connection(4)-192.168.1.170] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-28 09:54:18.887  INFO 2243 --- [RMI TCP Connection(4)-192.168.1.170] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-28 09:54:18.892  INFO 2243 --- [RMI TCP Connection(4)-192.168.1.170] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2021-06-28 09:54:19.765  INFO 2243 --- [RMI TCP Connection(3)-192.168.1.170] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:7, serverValue:116907}] to cluster0-shard-00-01.kgig8.mongodb.net:27017
+2021-06-28 09:56:56.958  INFO 2243 --- [cluster-ClusterId{value='60d98e2cf687c0398e2d601a', description='null'}-cluster0-shard-00-02.kgig8.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server cluster0-shard-00-02.kgig8.mongodb.net:27017
+
+com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:630) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:515) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:355) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:315) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:215) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:144) ~[mongodb-driver-core-4.2.3.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method) ~[na:na]
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115) ~[na:na]
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168) ~[na:na]
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1318) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:959) ~[na:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:109) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:131) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:647) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:512) ~[mongodb-driver-core-4.2.3.jar:na]
+	... 5 common frames omitted
+
+2021-06-28 09:56:56.958  INFO 2243 --- [cluster-ClusterId{value='60d98e2cf687c0398e2d601a', description='null'}-cluster0-shard-00-00.kgig8.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server cluster0-shard-00-00.kgig8.mongodb.net:27017
+
+com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:630) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:515) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:355) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:315) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:215) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:144) ~[mongodb-driver-core-4.2.3.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method) ~[na:na]
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115) ~[na:na]
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168) ~[na:na]
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1318) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:959) ~[na:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:109) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:131) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:647) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:512) ~[mongodb-driver-core-4.2.3.jar:na]
+	... 5 common frames omitted
+
+2021-06-28 09:56:56.958  INFO 2243 --- [cluster-ClusterId{value='60d98e2cf687c0398e2d601a', description='null'}-cluster0-shard-00-01.kgig8.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server cluster0-shard-00-01.kgig8.mongodb.net:27017
+
+com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:630) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:515) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:355) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:315) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:215) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:144) ~[mongodb-driver-core-4.2.3.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method) ~[na:na]
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115) ~[na:na]
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168) ~[na:na]
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1318) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:959) ~[na:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:109) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:131) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:647) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:512) ~[mongodb-driver-core-4.2.3.jar:na]
+	... 5 common frames omitted
+
+2021-06-28 09:56:57.972  INFO 2243 --- [cluster-ClusterId{value='60d98e2cf687c0398e2d601a', description='null'}-cluster0-shard-00-01.kgig8.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server cluster0-shard-00-01.kgig8.mongodb.net:27017
+
+com.mongodb.MongoSocketException: cluster0-shard-00-01.kgig8.mongodb.net: nodename nor servname provided, or not known
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:143) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:188) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:144) ~[mongodb-driver-core-4.2.3.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+Caused by: java.net.UnknownHostException: cluster0-shard-00-01.kgig8.mongodb.net: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:929) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1515) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:848) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1505) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1364) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1298) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-4.2.3.jar:na]
+	... 6 common frames omitted
+
+2021-06-28 09:56:57.972  INFO 2243 --- [cluster-ClusterId{value='60d98e2cf687c0398e2d601a', description='null'}-cluster0-shard-00-00.kgig8.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server cluster0-shard-00-00.kgig8.mongodb.net:27017
+
+com.mongodb.MongoSocketException: cluster0-shard-00-00.kgig8.mongodb.net: nodename nor servname provided, or not known
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:143) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:188) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:144) ~[mongodb-driver-core-4.2.3.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+Caused by: java.net.UnknownHostException: cluster0-shard-00-00.kgig8.mongodb.net: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:929) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1515) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:848) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1505) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1364) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1298) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-4.2.3.jar:na]
+	... 6 common frames omitted
+
+2021-06-28 09:56:57.973  INFO 2243 --- [cluster-ClusterId{value='60d98e2cf687c0398e2d601a', description='null'}-cluster0-shard-00-02.kgig8.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server cluster0-shard-00-02.kgig8.mongodb.net:27017
+
+com.mongodb.MongoSocketException: cluster0-shard-00-02.kgig8.mongodb.net: nodename nor servname provided, or not known
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:143) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:188) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:144) ~[mongodb-driver-core-4.2.3.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+Caused by: java.net.UnknownHostException: cluster0-shard-00-02.kgig8.mongodb.net: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:929) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1515) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:848) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1505) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1364) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1298) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-4.2.3.jar:na]
+	... 6 common frames omitted
+
+2021-06-28 09:57:07.977  INFO 2243 --- [cluster-ClusterId{value='60d98e2cf687c0398e2d601a', description='null'}-cluster0-shard-00-02.kgig8.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server cluster0-shard-00-02.kgig8.mongodb.net:27017
+
+com.mongodb.MongoSocketException: cluster0-shard-00-02.kgig8.mongodb.net
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:143) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:188) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:144) ~[mongodb-driver-core-4.2.3.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+Caused by: java.net.UnknownHostException: cluster0-shard-00-02.kgig8.mongodb.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:797) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1505) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1364) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1298) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-4.2.3.jar:na]
+	... 6 common frames omitted
+
+2021-06-28 09:57:17.983  INFO 2243 --- [cluster-ClusterId{value='60d98e2cf687c0398e2d601a', description='null'}-cluster0-shard-00-00.kgig8.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server cluster0-shard-00-00.kgig8.mongodb.net:27017
+
+com.mongodb.MongoSocketException: cluster0-shard-00-00.kgig8.mongodb.net
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:143) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:188) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:144) ~[mongodb-driver-core-4.2.3.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+Caused by: java.net.UnknownHostException: cluster0-shard-00-00.kgig8.mongodb.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:797) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1505) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1364) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1298) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-4.2.3.jar:na]
+	... 6 common frames omitted
+
+2021-06-28 09:57:37.992  INFO 2243 --- [cluster-ClusterId{value='60d98e2cf687c0398e2d601a', description='null'}-cluster0-shard-00-01.kgig8.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server cluster0-shard-00-01.kgig8.mongodb.net:27017
+
+com.mongodb.MongoSocketException: cluster0-shard-00-01.kgig8.mongodb.net
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:143) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:188) ~[mongodb-driver-core-4.2.3.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:144) ~[mongodb-driver-core-4.2.3.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+Caused by: java.net.UnknownHostException: cluster0-shard-00-01.kgig8.mongodb.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:797) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1505) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1364) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1298) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-4.2.3.jar:na]
+	... 6 common frames omitted
+
+2021-06-28 09:59:17.171  INFO 2243 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-28 10:00:01.517  INFO 2243 --- [cluster-rtt-ClusterId{value='60d98e2cf687c0398e2d601a', description='null'}-cluster0-shard-00-02.kgig8.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:118, serverValue:91984}] to cluster0-shard-00-02.kgig8.mongodb.net:27017
+2021-06-28 10:00:02.464  INFO 2243 --- [cluster-rtt-ClusterId{value='60d98e2cf687c0398e2d601a', description='null'}-cluster0-shard-00-01.kgig8.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:117, serverValue:116904}] to cluster0-shard-00-01.kgig8.mongodb.net:27017
+2021-06-28 10:00:02.469  INFO 2243 --- [cluster-rtt-ClusterId{value='60d98e2cf687c0398e2d601a', description='null'}-cluster0-shard-00-00.kgig8.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:116, serverValue:94138}] to cluster0-shard-00-00.kgig8.mongodb.net:27017
+2021-06-28 10:00:08.486  INFO 2243 --- [cluster-ClusterId{value='60d98e2cf687c0398e2d601a', description='null'}-cluster0-shard-00-01.kgig8.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:119, serverValue:116904}] to cluster0-shard-00-01.kgig8.mongodb.net:27017
+2021-06-28 10:00:08.486  INFO 2243 --- [cluster-ClusterId{value='60d98e2cf687c0398e2d601a', description='null'}-cluster0-shard-00-02.kgig8.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:121, serverValue:92000}] to cluster0-shard-00-02.kgig8.mongodb.net:27017
+2021-06-28 10:00:08.486  INFO 2243 --- [cluster-ClusterId{value='60d98e2cf687c0398e2d601a', description='null'}-cluster0-shard-00-00.kgig8.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:120, serverValue:94138}] to cluster0-shard-00-00.kgig8.mongodb.net:27017
+2021-06-28 10:00:08.487  INFO 2243 --- [cluster-ClusterId{value='60d98e2cf687c0398e2d601a', description='null'}-cluster0-shard-00-01.kgig8.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=cluster0-shard-00-01.kgig8.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=304362026, setName='atlas-grnei6-shard-0', canonicalAddress=cluster0-shard-00-01.kgig8.mongodb.net:27017, hosts=[cluster0-shard-00-00.kgig8.mongodb.net:27017, cluster0-shard-00-02.kgig8.mongodb.net:27017, cluster0-shard-00-01.kgig8.mongodb.net:27017], passives=[], arbiters=[], primary='cluster0-shard-00-01.kgig8.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff000000000000005c, setVersion=9, topologyVersion=TopologyVersion{processId=60d4e80377eb7fb88ffe7264, counter=6}, lastWriteDate=Mon Jun 28 10:00:08 WEST 2021, lastUpdateTimeNanos=4116053000619}
+2021-06-28 10:00:08.487  INFO 2243 --- [cluster-ClusterId{value='60d98e2cf687c0398e2d601a', description='null'}-cluster0-shard-00-00.kgig8.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=cluster0-shard-00-00.kgig8.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=311034885, setName='atlas-grnei6-shard-0', canonicalAddress=cluster0-shard-00-00.kgig8.mongodb.net:27017, hosts=[cluster0-shard-00-00.kgig8.mongodb.net:27017, cluster0-shard-00-02.kgig8.mongodb.net:27017, cluster0-shard-00-01.kgig8.mongodb.net:27017], passives=[], arbiters=[], primary='cluster0-shard-00-01.kgig8.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=9, topologyVersion=TopologyVersion{processId=60d4e4caca4118c03009c405, counter=4}, lastWriteDate=Mon Jun 28 10:00:08 WEST 2021, lastUpdateTimeNanos=4116053000713}
+2021-06-28 10:00:08.487  INFO 2243 --- [cluster-ClusterId{value='60d98e2cf687c0398e2d601a', description='null'}-cluster0-shard-00-02.kgig8.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=cluster0-shard-00-02.kgig8.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=307177124, setName='atlas-grnei6-shard-0', canonicalAddress=cluster0-shard-00-02.kgig8.mongodb.net:27017, hosts=[cluster0-shard-00-00.kgig8.mongodb.net:27017, cluster0-shard-00-02.kgig8.mongodb.net:27017, cluster0-shard-00-01.kgig8.mongodb.net:27017], passives=[], arbiters=[], primary='cluster0-shard-00-01.kgig8.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=9, topologyVersion=TopologyVersion{processId=60d4e8d3f5749bc96b6364b0, counter=4}, lastWriteDate=Mon Jun 28 10:00:08 WEST 2021, lastUpdateTimeNanos=4116053300255}
+2021-06-28 10:00:08.487  INFO 2243 --- [cluster-ClusterId{value='60d98e2cf687c0398e2d601a', description='null'}-cluster0-shard-00-01.kgig8.mongodb.net:27017] org.mongodb.driver.cluster               : Discovered replica set primary cluster0-shard-00-01.kgig8.mongodb.net:27017
+2021-06-28 10:02:15.570  INFO 2243 --- [http-nio-8762-exec-1] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:7, serverValue:116907}] to cluster0-shard-00-01.kgig8.mongodb.net:27017 because there was a socket exception raised on another connection from this pool.
+2021-06-28 10:02:16.374  INFO 2243 --- [http-nio-8762-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:122, serverValue:116899}] to cluster0-shard-00-01.kgig8.mongodb.net:27017
+2021-06-28 10:04:17.171  INFO 2243 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-28 10:09:17.168  INFO 2243 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-28 10:14:17.169  INFO 2243 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-28 10:19:17.171  INFO 2243 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-28 10:24:17.179  INFO 2243 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-28 10:29:17.178  INFO 2243 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

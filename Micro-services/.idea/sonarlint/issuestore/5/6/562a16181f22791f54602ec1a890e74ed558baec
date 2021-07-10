@@ -1,0 +1,11 @@
+
+\
+java:S1128":Remove this unused import 'com.peaqock.items.dto.ItemDto'.(™á×ùÿÿÿÿ8ÙåÀË¤/
+O
+java:S1128"2Remove this unused import 'javax.ws.rs.PathParam'.(ûÈü·8ÚåÀË¤/
+V
+java:S4684"@Replace this persistent entity with a simple POJO or DTO object.(§‰û¼
+t
+java:S2293 "YReplace the type specification in this constructor call with the diamond operator ("<>").(šÒ“˜øÿÿÿÿ
+n
+java:S2293%"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ìæœv

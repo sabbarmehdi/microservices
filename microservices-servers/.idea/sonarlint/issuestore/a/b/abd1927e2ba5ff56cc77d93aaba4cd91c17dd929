@@ -1,0 +1,9 @@
+
+B
+java:S1128"-Remove this unused import 'org.slf4j.Logger'.(íØ®6
+J
+java:S1128"4Remove this unused import 'org.slf4j.LoggerFactory'.(–ÿÚÞ
+J
+java:S6212"/Declare this local variable with "var" instead.(¶í÷Êýÿÿÿÿ
+N
+java:S1611"8Remove the parentheses around the "headerName" parameter(ˆõý‘

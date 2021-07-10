@@ -1,0 +1,35 @@
+
+N
+java:S3655à"7Call "Optional#isPresent()" before accessing the value.(ÂÑÍÑ
+N
+java:S3655Ê"7Call "Optional#isPresent()" before accessing the value.(ÂÑÍÑ
+[
+java:S2583‚"DChange this condition so that it does not always evaluate to "false"(ºá
+w
+java:S1488Ô"`Immediately return this expression instead of assigning it to the temporary variable "itemList".(™ıº˜
+O
+java:S1128 "4Remove this unused import 'java.time.LocalDateTime'.(æÃ§ƒüÿÿÿÿ
+S
+java:S1128""8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ
+P
+java:S1128":Remove this unused import 'com.peaqock.users.dto.ItemDto'.(ª·Â
+[
+java:S1128"@Remove this unused import 'org.springframework.http.HttpStatus'.(íŸ¤Šúÿÿÿÿ
+J
+java:S6212C"/Declare this local variable with "var" instead.(“æŠËÿÿÿÿÿ
+J
+java:S6212]"/Declare this local variable with "var" instead.(Ï¾ÀŒúÿÿÿÿ
+J
+java:S6212s"/Declare this local variable with "var" instead.(İ¥ªßüÿÿÿÿ
+K
+java:S6212Œ"/Declare this local variable with "var" instead.(“§ò úÿÿÿÿ
+K
+java:S6212"/Declare this local variable with "var" instead.(“€ï²üÿÿÿÿ
+F
+java:S6212©"/Declare this local variable with "var" instead.( Œ
+F
+java:S6212¿"/Declare this local variable with "var" instead.(­¦Ÿí
+K
+java:S6212Ë"/Declare this local variable with "var" instead.(ÉâÛîşÿÿÿÿ
+D
+java:S1185Ğ"(Remove this method to simply inherit it.(óù¬Úüÿÿÿÿ
