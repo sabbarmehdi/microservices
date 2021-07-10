@@ -1,7 +1,7 @@
 2021-06-28 09:53:52.738  INFO 2243 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8888
 2021-06-28 09:53:52.804  INFO 2243 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=ApiConfigurationServer, profiles=[default], label=null, version=null, state=null
 2021-06-28 09:53:52.807  INFO 2243 --- [restartedMain] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-file:/Users/sabbar/Desktop/projects/spring-boot-microservices/dev/application.properties'}]
-2021-06-28 09:53:52.927  INFO 2243 --- [restartedMain] com.peaqock.items.ItemsApplication       : No active profile set, falling back to default profiles: default
+2021-06-28 09:53:52.927  INFO 2243 --- [restartedMain] ItemsApplication       : No active profile set, falling back to default profiles: default
 2021-06-28 09:53:53.052  INFO 2243 --- [restartedMain] o.s.b.context.config.ConfigDataLoader    : Fetching config from server at : http://localhost:8888
 2021-06-28 09:53:53.052  INFO 2243 --- [restartedMain] o.s.b.context.config.ConfigDataLoader    : Located environment: name=ApiConfigurationServer, profiles=[default], label=null, version=null, state=null
 2021-06-28 09:53:57.573  INFO 2243 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
@@ -98,7 +98,7 @@
 2021-06-28 09:54:18.354  INFO 2243 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8762 (http) with context path ''
 2021-06-28 09:54:18.356  INFO 2243 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8762
 2021-06-28 09:54:18.483  INFO 2243 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBus.anonymous.rA1C2Av4S_u5pNIvc89BvA.errors
-2021-06-28 09:54:18.528  INFO 2243 --- [restartedMain] com.peaqock.items.ItemsApplication       : Started ItemsApplication in 29.328 seconds (JVM running for 37.744)
+2021-06-28 09:54:18.528  INFO 2243 --- [restartedMain] ItemsApplication       : Started ItemsApplication in 29.328 seconds (JVM running for 37.744)
 2021-06-28 09:54:18.546  INFO 2243 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
 2021-06-28 09:54:18.556  INFO 2243 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
 2021-06-28 09:54:18.886  INFO 2243 --- [RMI TCP Connection(4)-192.168.1.170] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
